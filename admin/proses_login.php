@@ -15,7 +15,7 @@ $cek = mysqli_num_rows($query);
 if ($cek > 0 ) {
     $_SESSION['username'] = $username;
     $_SESSION['status'] = 'login';
-    header ('Location:../user/index.php?pesan=Login berhasil');
+    header ('Location:index.php?pesan=Login berhasil');
 }else{
     header ('Location:login.php?pesan=login gagal');
 }
