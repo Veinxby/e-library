@@ -2,7 +2,7 @@
 session_start();
 error_reporting(1);
 if($_SESSION['status'] == 'login'){
-	header('Location:../user/index.php');
+	header('Location:index.php');
 }
 ?>
 
